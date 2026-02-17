@@ -85,7 +85,7 @@
 &mo 2             &trans  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &mkp LCLK  &kp SPACE  &kp SPACE         &mo 3                               &trans    &trans
             >;
 
-            sensor-bindings = <&mouse_wheel_scroll SCRL_UP SCRL_DOWN>;
+            sensor-bindings = <&sensor_rotate_kp A B>;
         };
 
         number_layer {
