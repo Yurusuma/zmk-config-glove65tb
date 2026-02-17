@@ -13,11 +13,14 @@ manifest:
       remote: zmkfirmware
       revision: v0.3.0
       import: app/west.yml
+
     - name: zmk-pmw3610-driver
       remote: badjeff
       revision: zmk-0.3
+
     - name: zmk-rgbled-widget
       remote: caksoylar
-      revision: main
+      revision: v0.3   # ← main から v0.3 に変更（ZMK v0.3.0 と揃える）
+
   self:
     path: config
