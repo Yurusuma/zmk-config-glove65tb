@@ -60,7 +60,7 @@ layers:
   - LEFT CONTROL
   - LEFT ALT
   - {t: BACKSPACE, h: LEFT SHIFT}
-  - SPACE
+  - {t: SPACE, h: FUN}
   - ENTER
   - RIGHT GUI
   - {t: ENTER, h: FUN}
@@ -152,7 +152,7 @@ layers:
   - {t: ▽, type: trans}
   - BT CLR
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - A
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -258,10 +258,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - DELETE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MOUSE:
