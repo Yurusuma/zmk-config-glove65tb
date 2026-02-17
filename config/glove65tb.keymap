@@ -68,7 +68,7 @@
             #sensor-binding-cells = <2>;
             bindings = <&msc>, <&msc>;
 
-            tap-ms = <12>;
+            tap-ms = <15>;
         };
     };
 
