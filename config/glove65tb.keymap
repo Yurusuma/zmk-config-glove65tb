@@ -32,9 +32,8 @@
     acceleration-exponent = <0>;
 };
 
-
-
 //マウスキーで延長
+
 &mkp_input_listener {
     input-processors = <&zip_temp_layer 5 250>;//2.5秒
 };
@@ -58,6 +57,11 @@
         scroll {
             bindings = <&mo 5>;
             key-positions = <49 50>;
+        };
+
+        test {
+            bindings = <&none>;
+            key-positions = <58 52 36 37 22 27 38>;
         };
     };
 
