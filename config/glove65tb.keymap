@@ -32,6 +32,10 @@
     acceleration-exponent = <0>;
 };
 
+//クリック後0.25秒でaml解除
+&mkp_input_listener {
+    input-processors = <&zip_temp_layer 5 250>;
+};
 
 / {
     input_processors {
