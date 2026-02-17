@@ -19,7 +19,7 @@ steps = <24>;//追加
 
 //追加
 &sensors {
-  triggers-per-rotation = <9>;
+  triggers-per-rotation = <6>;
 };
 
 
