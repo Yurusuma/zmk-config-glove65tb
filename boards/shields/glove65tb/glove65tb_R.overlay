@@ -19,7 +19,7 @@
             ;
 };
 
-
+/*
 //オートマウス脱出 除外キー（マウスキー）
 &zip_temp_layer {
     excluded-positions = <
@@ -32,6 +32,7 @@
         27 //Rshift
     >;
 };
+*/
 
 //オートマウスレイヤー誤爆防止
 &zip_temp_layer {
