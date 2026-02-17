@@ -84,5 +84,5 @@
 
 //追加
 &sensors {
-  triggers-per-rotation = <12>;
+  triggers-per-rotation = <9>;
 };
