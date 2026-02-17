@@ -14,41 +14,41 @@ layers:
   - '0'
   - BSPC
   - TAB
+  - P
+  - Y
+  - R
   - W
-  - G
-  - H
-  - D
-  - J
+  - F
   - B
   - Macro
   - ','
-  - Y
+  - .
   - U
-  - P
+  - L
   - Q
   - \
   - LANGUAGE 2
-  - {t: LCTRL, h: R}
+  - {t: R, h: LEFT CONTROL}
   - {t: S, h: LALT}
   - {t: N, h: SPACE}
   - T
   - K
-  - A
+  - F14
   - {t: ▽, type: trans}
-  - .
-  - A
+  - '-'
+  - {t: A, h: SCROLL}
   - E
   - {t: RIGHT ALT, h: O}
   - {t: I, h: RCTRL}
   - LANGUAGE 1
   - LEFT SHIFT
-  - {t: LEFT SHIFT, h: Z}
-  - B
-  - F
-  - L
+  - {t: B, h: LEFT SHIFT}
+  - J
   - M
-  - SCROLL
-  - ''''
+  - D
+  - G
+  - F15
+  - {t: ▽, type: trans}
   - ;
   - V
   - C
@@ -366,18 +366,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
