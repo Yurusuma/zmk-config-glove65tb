@@ -38,7 +38,7 @@ layers:
   - '-'
   - {t: A, h: SCROLL}
   - E
-  - {t: RIGHT ALT, h: O}
+  - {t: O, h: RIGHT ALT}
   - {t: I, h: RCTRL}
   - LANGUAGE 1
   - LEFT SHIFT
