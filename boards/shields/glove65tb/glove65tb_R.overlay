@@ -25,7 +25,10 @@
         22 // u
         37 // e
         36 // o
-        35 // Ctrl
+        38 // RCtrl
+        58 // lshft or lctrl
+        52  
+        27 //Rshift
     >;
 };
 
