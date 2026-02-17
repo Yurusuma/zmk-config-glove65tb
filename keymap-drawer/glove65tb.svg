@@ -422,6 +422,12 @@ path.combo {
 <a href="#SCROLL">
 <text x="672" y="203" class="combo tap layer-activator">SCROLL</text>
 </a></g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="714" y="134" width="28" height="26" class="combo"/>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="714" y="78" width="28" height="26" class="combo"/>
+</g>
 </g>
 </g>
 <g transform="translate(30, 398)" class="layer-NUM">
@@ -692,6 +698,12 @@ path.combo {
 <a href="#SCROLL">
 <text x="672" y="203" class="combo tap layer-activator">SCROLL</text>
 </a></g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="714" y="134" width="28" height="26" class="combo"/>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="714" y="78" width="28" height="26" class="combo"/>
+</g>
 </g>
 </g>
 <g transform="translate(30, 796)" class="layer-SYM">
@@ -968,6 +980,12 @@ path.combo {
 <a href="#SCROLL">
 <text x="672" y="203" class="combo tap layer-activator">SCROLL</text>
 </a></g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="714" y="134" width="28" height="26" class="combo"/>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="714" y="78" width="28" height="26" class="combo"/>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1195)" class="layer-FUN">
@@ -1267,6 +1285,12 @@ path.combo {
 <a href="#SCROLL">
 <text x="672" y="203" class="combo tap layer-activator">SCROLL</text>
 </a></g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="714" y="134" width="28" height="26" class="combo"/>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="714" y="78" width="28" height="26" class="combo"/>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1593)" class="layer-MOUSE">
@@ -1543,6 +1567,12 @@ path.combo {
 <a href="#SCROLL">
 <text x="672" y="203" class="combo tap layer-activator">SCROLL</text>
 </a></g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="714" y="134" width="28" height="26" class="combo"/>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="714" y="78" width="28" height="26" class="combo"/>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1991)" class="layer-SCROLL">
@@ -1812,6 +1842,12 @@ path.combo {
 <a href="#SCROLL">
 <text x="672" y="203" class="combo tap layer-activator">SCROLL</text>
 </a></g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="714" y="134" width="28" height="26" class="combo"/>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="714" y="78" width="28" height="26" class="combo"/>
+</g>
 </g>
 </g>
 <g transform="translate(30, 2389)" class="layer-Macro">
@@ -2081,6 +2117,12 @@ path.combo {
 <a href="#SCROLL">
 <text x="672" y="203" class="combo tap layer-activator">SCROLL</text>
 </a></g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="714" y="134" width="28" height="26" class="combo"/>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="714" y="78" width="28" height="26" class="combo"/>
+</g>
 </g>
 </g>
 </svg>
