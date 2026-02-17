@@ -28,7 +28,7 @@ layers:
   - Q
   - \
   - LANGUAGE 2
-  - {t: R, h: LEFT CONTROL}
+  - {t: H, h: LEFT CONTROL}
   - {t: S, h: LALT}
   - {t: N, h: SPACE}
   - T
