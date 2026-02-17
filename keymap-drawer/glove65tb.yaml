@@ -19,7 +19,7 @@ layers:
   - E
   - R
   - T
-  - {t: ▽, type: trans}
+  - ''
   - {t: ▽, type: trans}
   - Y
   - U
