@@ -219,8 +219,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F11
   - F12
+  - +
   - UP ARROW
   - HOME
   - '-'
