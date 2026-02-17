@@ -33,7 +33,7 @@ layers:
   - D
   - F
   - G
-  - SCROLL UP
+  - ''
   - {t: ▽, type: trans}
   - H
   - J
