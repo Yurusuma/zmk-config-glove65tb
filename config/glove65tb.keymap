@@ -32,6 +32,13 @@
     acceleration-exponent = <0>;
 };
 
+
+
+//マウスキーで延長
+&mkp_input_listener {
+    input-processors = <&zip_temp_layer 5 10000>;
+};
+
 / {
     input_processors {
         zip_wheel_scaler: zip_wheel_scaler {
