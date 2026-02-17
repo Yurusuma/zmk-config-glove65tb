@@ -19,7 +19,7 @@ layers:
   - E
   - R
   - T
-  - ''
+  - B
   - {t: ▽, type: trans}
   - Y
   - U
@@ -33,7 +33,7 @@ layers:
   - D
   - F
   - G
-  - {t: ▽, type: trans}
+  - A
   - {t: ▽, type: trans}
   - H
   - J
