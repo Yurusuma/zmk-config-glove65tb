@@ -85,7 +85,7 @@
 &mo 2             &trans  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &mkp LCLK  &kp SPACE        &kp SPACE         &mo 3                               &trans    &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp SCRL_UP K_SCRL_DOWN>;
         };
 
         number_layer {
