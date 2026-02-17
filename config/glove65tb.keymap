@@ -26,8 +26,8 @@
 };
 
 &msc {
-    delay-ms = <0>;
-    trigger-period-ms = <12>;
+    delay-ms = <3>;
+    trigger-period-ms = <20>;
     time-to-max-speed-ms = <100>;
     acceleration-exponent = <0>;
 };
@@ -68,7 +68,7 @@
             #sensor-binding-cells = <2>;
             bindings = <&msc>, <&msc>;
 
-            tap-ms = <15>;
+            tap-ms = <20>;
         };
     };
 
