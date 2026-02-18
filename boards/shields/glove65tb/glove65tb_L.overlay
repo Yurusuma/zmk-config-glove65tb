@@ -22,6 +22,8 @@ steps = <48>;//追加
   triggers-per-rotation = <12>;
 };
 
+
+//追加
 &pinctrl {
   qdec_default: qdec_default {
     group1 {
@@ -40,4 +42,8 @@ encoder: &qdec0 {
   pinctrl-names = "default";
 };
 
+&sensors {
+  sensors = <&encoder>;
+  triggers-per-rotation = <12>;   /* 実ノッチ12なら12 */
+};
 
