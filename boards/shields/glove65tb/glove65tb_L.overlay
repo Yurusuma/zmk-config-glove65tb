@@ -12,7 +12,7 @@
 };
 &left_encoder {
     status = "okay";
-steps = <48>;//追加
+steps = <24>;//追加
 };
 //追加
 &sensors {
