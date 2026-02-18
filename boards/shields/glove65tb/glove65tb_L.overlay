@@ -1,42 +1,20 @@
 #include "glove65tb.dtsi"
-
 &kscan0 {
-    col-gpios
-        = <&xiao_d 10 GPIO_ACTIVE_HIGH>
-        , <&gpio1 7  GPIO_ACTIVE_HIGH>
-        , <&xiao_d 9  GPIO_ACTIVE_HIGH>
-        , <&gpio1 5  GPIO_ACTIVE_HIGH>
-        , <&xiao_d 8  GPIO_ACTIVE_HIGH>
-        , <&gpio1 3  GPIO_ACTIVE_HIGH>
-        , <&xiao_d 7  GPIO_ACTIVE_HIGH>
-        ;
+        col-gpios
+            = <&xiao_d 10 GPIO_ACTIVE_HIGH>
+            , <&gpio1 7  GPIO_ACTIVE_HIGH>
+            , <&xiao_d 9  GPIO_ACTIVE_HIGH>
+            , <&gpio1 5  GPIO_ACTIVE_HIGH>
+            , <&xiao_d 8  GPIO_ACTIVE_HIGH>
+            , <&gpio1 3  GPIO_ACTIVE_HIGH>
+            , <&xiao_d 7  GPIO_ACTIVE_HIGH>
+            ;
 };
-
-/* EC11は使わない（混在防止） */
 &left_encoder {
-    status = "disabled";
-};
-
-/* QDEC pinctrl: A=D3(P0.29), B=D0(P0.02) */
-&pinctrl {
-    qdec0_default: qdec0_default {
-        group1 {
-            psels = <NRF_PSEL(QDEC_A, 0, 29)>,
-                    <NRF_PSEL(QDEC_B, 0, 2)>;
-            bias-pull-up;
-        };
-    };
-};
-
-&qdec0 {
     status = "okay";
-    steps = <48>;
-    led-pre = <0>;
-    pinctrl-0 = <&qdec0_default>;
-    pinctrl-names = "default";
+steps = <48>;//追加
 };
-
+//追加
 &sensors {
-    sensors = <&qdec0>;
-    triggers-per-rotation = <12>;
+  triggers-per-rotation = <12>;
 };
