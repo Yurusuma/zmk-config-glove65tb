@@ -22,4 +22,14 @@ steps = <48>;//追加
   triggers-per-rotation = <12>;
 };
 
+&pinctrl {
+  qdec_default: qdec_default {
+    group1 {
+      psels = <NRF_PSEL(QDEC_A, 1, 11)>,
+              <NRF_PSEL(QDEC_B, 1, 10)>;
+      bias-pull-up;
+    };
+  };
+};
+
 
