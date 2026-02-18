@@ -21,14 +21,14 @@
 &mmv {
     delay-ms = <20>;
     trigger-period-ms = <5>;
-    time-to-max-speed-ms = <0>;
+    time-to-max-speed-ms = <100>;
     acceleration-exponent = <2>;
 };
 
 &msc {
     delay-ms = <0>;
     trigger-period-ms = <3>;
-    time-to-max-speed-ms = <100>;
+    time-to-max-speed-ms = <0>;
     acceleration-exponent = <0>;
 };
 
