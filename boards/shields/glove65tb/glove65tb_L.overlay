@@ -32,4 +32,12 @@ steps = <48>;//追加
   };
 };
 
+encoder: &qdec0 {
+  status = "okay";
+  steps = <48>;                 /* あなたは実ノッチ12、今 steps=48 で 1入力になってるのでこれでOK */
+  led-pre = <0>;
+  pinctrl-0 = <&qdec_default>;
+  pinctrl-names = "default";
+};
+
 
