@@ -49,7 +49,6 @@
     };
 };
 
-
 /*
 &msc_input_listener {
   input-processors = <&zip_wheel_scaler 1 4>;
@@ -120,7 +119,7 @@
 &mo 2           &kp LEFT_GUI                    &kp LEFT_CONTROL        &kp LEFT_ALT             &hold_tap_kp_kp LEFT_SHIFT BACKSPACE  &hold_tap_mo_kp 3 SPACE  &kp ENTER  &hold_tap_mo_kp 8 RIGHT_GUI  &hold_tap_mo_kp 3 ENTER                                                            &trans                         &trans
             >;
 
-            sensor-bindings = <&mouse_wheel_scroll SCRL_UP SCRL_DOWN>;
+            sensor-bindings = <&sensor_rotate_kp A B>;
         };
 
         number_layer {
