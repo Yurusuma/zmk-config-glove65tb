@@ -26,8 +26,8 @@
 };
 
 &msc {
-    delay-ms = <3>;
-    trigger-period-ms = <3>;
+    delay-ms = <8>;
+    trigger-period-ms = <16>;
     time-to-max-speed-ms = <0>;
     acceleration-exponent = <0>;
 };
@@ -50,10 +50,11 @@
 };
 
 
+/*
 &msc_input_listener {
   input-processors = <&zip_wheel_scaler 1 4>;
 };
-
+*/
 
 / {
     combos {
@@ -84,7 +85,7 @@
             #sensor-binding-cells = <2>;
             bindings = <&msc>, <&msc>;
 
-            tap-ms = <20>;
+            tap-ms = <16>;
         };
 
         hold_tap_kp_kp: hold_tap_kp_kp {
