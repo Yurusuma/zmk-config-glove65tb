@@ -12,12 +12,12 @@
         ;
 };
 
-/* EC11(GPIO)は使わない：無効化しておく（残してOK） */
+/* EC11は使わない（混在防止） */
 &left_encoder {
     status = "disabled";
 };
 
-/* QDEC用 pinctrl（A=D3=P0.29, B=D0=P0.02） */
+/* QDEC pinctrl: A=D3(P0.29), B=D0(P0.02) */
 &pinctrl {
     qdec0_default: qdec0_default {
         group1 {
@@ -28,17 +28,15 @@
     };
 };
 
-/* qdec0 を encoder として有効化 */
-& qdec0 {
+&qdec0 {
     status = "okay";
-    steps = <48>;                 /* デテント12の場合の典型：12*4 */
+    steps = <48>;
     led-pre = <0>;
     pinctrl-0 = <&qdec0_default>;
     pinctrl-names = "default";
 };
 
-/* keymap-sensors：QDECを使う */
 &sensors {
     sensors = <&qdec0>;
-    triggers-per-rotation = <12>; /* 実ノッチ12 */
+    triggers-per-rotation = <12>;
 };
