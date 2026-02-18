@@ -14,7 +14,7 @@
 
 &left_encoder {
     status = "okay";
-steps = <24>;//追加
+steps = <48>;//追加
 };
 
 //追加
