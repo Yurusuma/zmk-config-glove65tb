@@ -61,7 +61,7 @@ layers:
   - LEFT ALT
   - {t: BACKSPACE, h: LEFT SHIFT}
   - {t: SPACE, h: FUN}
-  - ENTER
+  - {t: ENTER, h: copy}
   - {t: RIGHT GUI, h: copy}
   - {t: ENTER, h: FUN}
   - {t: ▽, type: trans}
@@ -589,8 +589,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
