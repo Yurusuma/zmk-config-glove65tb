@@ -30,7 +30,6 @@
     trigger-period-ms = <3>;
     time-to-max-speed-ms = <100>;
     acceleration-exponent = <0>;
-input-processors = <&zip_wheel_scaler 1 3>; 
 };
 
 /*
