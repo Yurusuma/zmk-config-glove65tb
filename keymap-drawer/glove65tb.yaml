@@ -16,7 +16,7 @@ layers:
   - TAB
   - P
   - Y
-  - R
+  - H
   - W
   - F
   - B
@@ -28,7 +28,7 @@ layers:
   - Q
   - \
   - LANGUAGE 2
-  - {t: H, h: LEFT CONTROL}
+  - {t: R, h: LEFT CONTROL}
   - {t: S, h: LALT}
   - {t: N, h: SPACE}
   - T
