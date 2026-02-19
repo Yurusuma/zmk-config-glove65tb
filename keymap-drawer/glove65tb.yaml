@@ -14,11 +14,11 @@ layers:
   - '0'
   - BSPC
   - TAB
-  - P
-  - Y
-  - H
   - W
-  - F
+  - G
+  - H
+  - D
+  - Y
   - B
   - Macro
   - .
@@ -42,11 +42,11 @@ layers:
   - {t: I, h: RCTRL}
   - LANGUAGE 1
   - LEFT SHIFT
-  - {t: B, h: LEFT SHIFT}
+  - {t: P, h: LEFT SHIFT}
+  - B
+  - F
   - J
   - M
-  - D
-  - G
   - F15
   - {t: ▽, type: trans}
   - ;
