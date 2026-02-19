@@ -15,16 +15,16 @@ layers:
   - BSPC
   - TAB
   - W
-  - G
+  - Y
   - H
   - D
-  - Y
+  - G
   - B
   - Macro
   - .
   - ','
   - U
-  - L
+  - P
   - Q
   - \
   - LANGUAGE 2
@@ -42,10 +42,10 @@ layers:
   - {t: I, h: RCTRL}
   - LANGUAGE 1
   - LEFT SHIFT
-  - {t: P, h: LEFT SHIFT}
-  - B
-  - F
+  - {t: B, h: LEFT SHIFT}
   - J
+  - F
+  - L
   - M
   - F15
   - {t: ▽, type: trans}
