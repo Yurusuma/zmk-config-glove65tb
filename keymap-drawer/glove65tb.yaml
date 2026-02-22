@@ -57,8 +57,8 @@ layers:
   - RIGHT SHIFT
   - SYM
   - LEFT GUI
-  - LEFT CONTROL
   - LEFT ALT
+  - Sft+Alt+LCTRL
   - {t: BACKSPACE, h: LEFT SHIFT}
   - {t: SPACE, h: FUN}
   - {t: ENTER, h: copy}
