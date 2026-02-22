@@ -151,7 +151,7 @@
 &trans   &trans                     &trans                              &kp UP_ARROW    &kp ASTERISK     &trans                &trans             &trans     &kp F12                &kp PLUS        &kp UP_ARROW    &kp HOME                       &kp MINUS                            &kp EQUAL
 &trans   &hold_tap_kp_kp LCTRL SQT  &kp LEFT_ARROW                      &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_PARENTHESIS  &kp C_VOLUME_UP    &trans     &kp RIGHT_PARENTHESIS  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW                &hold_tap_kp_kp LC(RCTRL) SEMICOLON  &kp RIGHT_BRACKET
 &trans   &kp LEFT_SHIFT             &hold_tap_kp_kp LEFT_ALT PAGE_DOWN  &trans          &kp SLASH        &kp EXCLAMATION       &kp C_VOLUME_DOWN  &kp GRAVE  &kp QUESTION           &kp MINUS       &kp EQUAL       &hold_tap_kp_kp RIGHT_ALT END  &kp RIGHT_SHIFT                      &trans
-&trans   &trans                     &trans                              &trans          &trans           &trans                &trans             &trans     &trans                                                                                &trans                               &trans
+&trans   &trans                     &trans                              &trans          &kp DEL          &trans                &trans             &trans     &trans                                                                                &trans                               &trans
             >;
 
             sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
