@@ -257,7 +257,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - DEL
+  - {t: DELETE, h: LSHIFT}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
