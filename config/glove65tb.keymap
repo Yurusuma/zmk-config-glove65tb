@@ -122,6 +122,15 @@
             #binding-cells = <2>;
             tapping-term-ms = <120>;
         };
+
+        hold_tap_mkp_kp: hold_tap_mkp_kp {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLD_TAP_MKP_KP";
+            bindings = <&mkp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <100>;
+        };
     };
 
     keymap {
@@ -130,11 +139,11 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&kp GRAVE       &kp N1                          &kp N2                  &kp N3                      &kp N4                                &kp N5                                                                         &kp N6                   &kp N7               &kp N8  &kp N9                           &kp N0                             &kp SINGLE_QUOTE
-&kp TAB         &kp W                           &kp Y                   &kp H                       &kp D                                 &kp G                    &kp B                    &mo 6                        &kp PERIOD               &kp COMMA            &kp U   &kp P                            &kp Q                              &kp BACKSPACE
-&kp LANGUAGE_2  &hold_tap_kp_kp LEFT_CONTROL R  &hold_tap_kp_kp LALT S  &hold_tap_kp_kp_90 SPACE N  &kp T                                 &kp K                    &kp F14                  &trans                       &kp MINUS                &hold_tap_mo_kp 5 A  &kp E   &hold_tap_kp_kp_120 RIGHT_ALT O  &hold_tap_kp_kp_120 RCTRL I        &kp LANGUAGE_1
-&kp LEFT_SHIFT  &hold_tap_kp_kp LEFT_SHIFT B    &kp J                   &kp F                       &kp L                                 &kp M                    &kp F15                  &trans                       &kp SEMICOLON            &hold_tap_mo_kp 7 V  &kp C   &kp X                            &hold_tap_kp_kp_120 RIGHT_SHIFT Z  &kp BACKSLASH
-&mo 2           &kp LEFT_GUI                    &kp LEFT_ALT            &kp LS(LA(LCTRL))           &hold_tap_kp_kp LEFT_SHIFT BACKSPACE  &hold_tap_mo_kp 3 SPACE  &hold_tap_mo_kp 8 ENTER  &hold_tap_mo_kp 8 RIGHT_GUI  &hold_tap_mo_kp 3 ENTER                                                                &trans                             &trans
+&kp GRAVE       &kp N1                          &kp N2                  &kp N3                      &kp N4                                &kp N5                                                                          &kp N6                   &kp N7               &kp N8  &kp N9                           &kp N0                             &kp SINGLE_QUOTE
+&kp TAB         &kp W                           &kp Y                   &kp H                       &kp D                                 &kp G                    &kp B                     &mo 6                        &kp PERIOD               &kp COMMA            &kp U   &kp P                            &kp Q                              &kp BACKSPACE
+&kp LANGUAGE_2  &hold_tap_kp_kp LEFT_CONTROL R  &hold_tap_kp_kp LALT S  &hold_tap_kp_kp_90 SPACE N  &kp T                                 &kp K                    &kp F14                   &trans                       &kp MINUS                &hold_tap_mo_kp 5 A  &kp E   &hold_tap_kp_kp_120 RIGHT_ALT O  &hold_tap_kp_kp_120 RCTRL I        &kp LANGUAGE_1
+&kp LEFT_SHIFT  &hold_tap_kp_kp LEFT_SHIFT B    &kp J                   &kp F                       &kp L                                 &kp M                    &hold_tap_mkp_kp MB2 F15  &trans                       &kp SEMICOLON            &hold_tap_mo_kp 7 V  &kp C   &kp X                            &hold_tap_kp_kp_120 RIGHT_SHIFT Z  &kp BACKSLASH
+&mo 2           &kp LEFT_GUI                    &kp LEFT_ALT            &kp LS(LA(LCTRL))           &hold_tap_kp_kp LEFT_SHIFT BACKSPACE  &hold_tap_mo_kp 3 SPACE  &hold_tap_mo_kp 8 ENTER   &hold_tap_mo_kp 8 RIGHT_GUI  &hold_tap_mo_kp 3 ENTER                                                                &trans                             &trans
             >;
 
             sensor-bindings = <&sensor_rotate_kp F16 F17>;
