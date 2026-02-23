@@ -27,7 +27,7 @@ layers:
   - P
   - Q
   - BACKSPACE
-  - LANGUAGE 2
+  - {t: LANGUAGE 2, h: '&mkp RCLK'}
   - {t: R, h: LEFT CONTROL}
   - {t: S, h: LALT}
   - {t: N, h: SPACE}
