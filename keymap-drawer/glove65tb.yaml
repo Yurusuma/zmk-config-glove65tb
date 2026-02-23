@@ -47,7 +47,7 @@ layers:
   - F
   - L
   - M
-  - F15
+  - {t: F15, h: '&mkp MB2'}
   - {t: ▽, type: trans}
   - ;
   - {t: V, h: window}
