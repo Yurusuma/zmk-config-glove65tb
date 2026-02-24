@@ -21,8 +21,8 @@ layers:
   - G
   - B
   - Macro
-  - .
   - ','
+  - '-'
   - U
   - P
   - Q
@@ -35,7 +35,7 @@ layers:
   - K
   - F14
   - {t: ▽, type: trans}
-  - '-'
+  - .
   - {t: A, h: SCROLL}
   - E
   - {t: O, h: RIGHT ALT}
