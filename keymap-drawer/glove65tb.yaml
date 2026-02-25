@@ -62,7 +62,7 @@ layers:
   - {t: BACKSPACE, h: LEFT SHIFT}
   - {t: SPACE, h: FUN}
   - {t: ENTER, h: copy}
-  - {t: RIGHT GUI, h: copy}
+  - {t: RIGHT GUI, h: window}
   - {t: ENTER, h: copy}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

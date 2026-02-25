@@ -412,8 +412,8 @@ path.combo {
 <text x="0" y="0" class="key tap">
 <tspan x="0" dy="-1.2em">RIGHT</tspan><tspan x="0" dy="1.2em">GUI</tspan>
 </text>
-<a href="#copy">
-<text x="0" y="24" class="key hold layer-activator">copy</text>
+<a href="#window">
+<text x="0" y="24" class="key hold layer-activator">window</text>
 </a></g>
 <g transform="translate(568, 287) rotate(-10.0)" class="key keypos-62">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
