@@ -63,7 +63,7 @@ layers:
   - {t: SPACE, h: FUN}
   - {t: ENTER, h: copy}
   - {t: RIGHT GUI, h: copy}
-  - {t: ENTER, h: copy2}
+  - {t: ENTER, h: copy}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NUM:
