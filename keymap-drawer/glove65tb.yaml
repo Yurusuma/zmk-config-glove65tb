@@ -554,7 +554,7 @@ layers:
   - Gui+E
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DELETE
   - {t: ▽, type: trans}
   - {t: Ctl+Z, h: LCTRL}
   - Ctl+X
