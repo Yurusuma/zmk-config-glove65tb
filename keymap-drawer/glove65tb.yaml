@@ -41,7 +41,7 @@ layers:
   - {t: O, h: RIGHT ALT}
   - {t: I, h: RCTRL}
   - LANGUAGE 1
-  - LEFT SHIFT
+  - F18
   - {t: B, h: LEFT SHIFT}
   - J
   - F
