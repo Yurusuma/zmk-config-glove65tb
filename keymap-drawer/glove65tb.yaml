@@ -46,10 +46,10 @@ layers:
   - J
   - F
   - L
-  - M
+  - {t: M, h: copy}
   - {t: F15, h: '&mkp MB2'}
   - {t: ▽, type: trans}
-  - ;
+  - {t: ;, h: copy}
   - {t: V, h: window}
   - C
   - X
@@ -63,7 +63,7 @@ layers:
   - {t: SPACE, h: FUN}
   - {t: ENTER, h: copy}
   - {t: RIGHT GUI, h: window}
-  - {t: ENTER, h: copy}
+  - {t: ENTER, h: FUN}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NUM:
@@ -574,7 +574,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+TAB
@@ -589,7 +589,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
