@@ -615,7 +615,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+TAB
+  - Ctl+Sft+TAB
   - Ctl+V
   - Ctl+C
   - Ctl+X
@@ -629,7 +629,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+Sft+TAB
+  - Ctl+TAB
   - PREV
   - PLAY PAUSE
   - NEXT
