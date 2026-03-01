@@ -212,18 +212,18 @@ layers:
   - F10
   - F11
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '"'
+  - HOME
   - UP ARROW
   - '*'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '['
   - {t: ▽, type: trans}
   - F12
+  - ']'
   - +
   - UP ARROW
   - HOME
-  - '-'
+  - ':'
   - DELETE
   - {t: ▽, type: trans}
   - {t: '''', h: LCTRL}
@@ -231,8 +231,8 @@ layers:
   - DOWN ARROW
   - RIGHT ARROW
   - (
-  - VOLUME UP
-  - {t: ▽, type: trans}
+  - <
+  - '>'
   - )
   - LEFT ARROW
   - DOWN ARROW
@@ -241,12 +241,12 @@ layers:
   - ']'
   - {t: ▽, type: trans}
   - LEFT SHIFT
-  - {t: PAGE DOWN, h: LEFT ALT}
-  - {t: ▽, type: trans}
+  - {t: END, h: LEFT ALT}
+  - '='
   - /
   - '!'
-  - VOLUME DOWN
-  - '`'
+  - '{'
+  - '}'
   - '?'
   - '-'
   - '='
