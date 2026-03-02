@@ -14,7 +14,7 @@ layers:
   - '0'
   - ''''
   - TAB
-  - {t: W, h: copy2}
+  - W
   - Y
   - H
   - D
@@ -25,7 +25,7 @@ layers:
   - '-'
   - U
   - P
-  - {t: Q, h: copy2}
+  - Q
   - BACKSPACE
   - {t: LANGUAGE 2, h: '&mkp RCLK'}
   - {t: R, h: LEFT CONTROL}
@@ -549,12 +549,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+Sft+TAB
   - {t: ▽, type: trans}
   - Gui+E
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - DELETE
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Ctl+Z, h: LCTRL}
   - Ctl+X
@@ -563,7 +563,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+Sft+TAB
+  - Ctl+TAB
   - Ctl+V
   - Ctl+C
   - Ctl+X
@@ -608,7 +608,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - Ctl+X
   - Ctl+C
   - Ctl+V
