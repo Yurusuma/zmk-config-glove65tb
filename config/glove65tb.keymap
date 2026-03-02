@@ -140,7 +140,7 @@
             label = "DEFAULT";
             bindings = <
 &kp GRAVE                         &kp N1                          &kp N2                  &kp N3                      &kp N4                                &kp N5                                                                          &kp N6                       &kp N7               &kp N8  &kp N9                           &kp N0                             &kp SINGLE_QUOTE
-&kp TAB                           &hold_tap_mo_kp 9 W             &kp Y                   &kp H                       &kp D                                 &kp G                    &kp B                     &mo 6                        &kp COMMA                    &kp MINUS            &kp U   &kp P                            &hold_tap_mo_kp 9 Q                &kp BACKSPACE
+&kp TAB                           &kp W                           &kp Y                   &kp H                       &kp D                                 &kp G                    &kp B                     &mo 6                        &kp COMMA                    &kp MINUS            &kp U   &kp P                            &kp Q                              &kp BACKSPACE
 &hold_tap_mkp_kp RCLK LANGUAGE_2  &hold_tap_kp_kp LEFT_CONTROL R  &hold_tap_kp_kp LALT S  &hold_tap_kp_kp_90 SPACE N  &kp T                                 &kp K                    &kp F14                   &trans                       &kp PERIOD                   &hold_tap_mo_kp 5 A  &kp E   &hold_tap_kp_kp_120 RIGHT_ALT O  &hold_tap_kp_kp_120 RCTRL I        &kp LANGUAGE_1
 &kp F18                           &hold_tap_kp_kp LEFT_SHIFT B    &kp J                   &kp F                       &kp L                                 &hold_tap_mo_kp 8 M      &hold_tap_mkp_kp MB2 F15  &trans                       &hold_tap_mo_kp 8 SEMICOLON  &hold_tap_mo_kp 7 V  &kp C   &kp X                            &hold_tap_kp_kp_120 RIGHT_SHIFT Z  &kp BACKSLASH
 &mo 2                             &kp LEFT_GUI                    &kp LEFT_ALT            &kp LS(LA(LCTRL))           &hold_tap_kp_kp LEFT_SHIFT BACKSPACE  &hold_tap_mo_kp 3 SPACE  &hold_tap_mo_kp 8 ENTER   &hold_tap_mo_kp 7 RIGHT_GUI  &hold_tap_mo_kp 3 ENTER                                                                    &trans                             &trans
@@ -229,8 +229,8 @@
         copy {
             bindings = <
 &trans  &trans                       &trans     &trans     &trans     &trans                  &trans           &trans      &trans            &trans      &trans                       &trans
-&trans  &trans                       &trans     &kp LG(E)  &trans     &trans  &trans  &trans  &trans           &trans      &kp RG(E)         &trans      &trans                       &kp DELETE
-&trans  &hold_tap_kp_kp LCTRL LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans  &trans  &trans  &kp LC(LS(TAB))  &kp LC(V)   &kp RC(C)         &kp RC(X)   &hold_tap_kp_kp RCTRL RC(Z)  &trans
+&trans  &trans                       &trans     &kp LG(E)  &trans     &trans  &trans  &trans  &kp LC(LS(TAB))  &trans      &kp RG(E)         &trans      &trans                       &trans
+&trans  &hold_tap_kp_kp LCTRL LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans  &trans  &trans  &kp LC(TAB)      &kp LC(V)   &kp RC(C)         &kp RC(X)   &hold_tap_kp_kp RCTRL RC(Z)  &trans
 &trans  &trans                       &trans     &trans     &trans     &trans  &trans  &trans  &kp LC(TAB)      &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT  &trans                       &trans
 &trans  &trans                       &trans     &trans     &trans     &trans  &trans  &trans  &trans                                                     &trans                       &trans
             >;
