@@ -146,7 +146,7 @@
 &hold_tap_mo_kp 2 A               &kp LEFT_GUI                    &kp LEFT_ALT            &kp LS(LA(LCTRL))           &hold_tap_kp_kp_90 LEFT_SHIFT BACKSPACE  &hold_tap_mo_kp 3 SPACE  &hold_tap_mo_kp 8 ENTER   &hold_tap_mo_kp 7 RIGHT_GUI  &hold_tap_mo_kp 3 ENTER                                                                    &trans                             &trans
             >;
 
-            sensor-bindings = <&sensor_rotate_kp F16 B>;
+            sensor-bindings = <&sensor_rotate_kp F16 F17>;
         };
 
         number_layer {
@@ -181,7 +181,7 @@
 &trans   &trans                     &trans                        &trans          &hold_tap_kp_kp LSHIFT DELETE  &trans                &trans          &trans            &trans                                                                                &trans                               &trans
             >;
 
-            sensor-bindings = <&sensor_rotate_kp KP_PLUS KP_MINUS>;
+            sensor-bindings = <&sensor_rotate_kp F18 F19>;
         };
 
         mouse_layer {
