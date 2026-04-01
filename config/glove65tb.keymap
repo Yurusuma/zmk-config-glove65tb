@@ -146,7 +146,7 @@
 &hold_tap_mo_kp 2 A               &kp LEFT_GUI                    &kp LEFT_ALT            &kp LS(LA(LCTRL))           &hold_tap_kp_kp_90 LEFT_SHIFT BACKSPACE  &hold_tap_mo_kp 3 SPACE  &hold_tap_mo_kp 8 ENTER   &hold_tap_mo_kp 7 RIGHT_GUI  &hold_tap_mo_kp 3 ENTER                                                                    &trans                             &trans
             >;
 
-            sensor-bindings = <&sensor_rotate_kp F16 F17>;
+            sensor-bindings = <&sensor_rotate_kp A B>;
         };
 
         number_layer {
