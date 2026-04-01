@@ -12,12 +12,12 @@
 };
 &left_encoder {
     status = "okay";
-steps = <44>;
-//steps = <24>;//追加
+//steps = <44>;
+steps = <24>;//追加
 };
 //追加
-/*
+
 &sensors {
   triggers-per-rotation = <12>;
 };
-*/
+
