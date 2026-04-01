@@ -181,7 +181,7 @@
 &trans   &trans                     &trans                        &trans          &hold_tap_kp_kp LSHIFT DELETE  &trans                &trans          &trans            &trans                                                                                &trans                               &trans
             >;
 
-            sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
+            sensor-bindings = <&sensor_rotate_kp KP_PLUS KP_MINUS>;
         };
 
         mouse_layer {
