@@ -34,7 +34,7 @@ layers:
   - T
   - K
   - F14
-  - {t: ▽, type: trans}
+  - '&mkp LCLK'
   - .
   - {t: A, h: SCROLL}
   - E
