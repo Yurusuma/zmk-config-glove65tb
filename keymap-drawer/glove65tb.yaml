@@ -791,7 +791,7 @@ layers:
   - {t: ▽, type: trans}
   - ENTER
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - A
 combos:
 - p: [49, 50]
   k: SCROLL
