@@ -31,7 +31,7 @@ layers:
   - {t: R, h: LEFT CONTROL}
   - {t: S, h: LALT}
   - {t: N, h: SPACE}
-  - {t: T, h: SCROLL}
+  - T
   - K
   - F14
   - '&mkp LCLK'
@@ -361,12 +361,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
